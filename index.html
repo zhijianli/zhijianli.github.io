@@ -27,4 +27,84 @@
             margin-bottom: 10px;
         }
     </style>
-    </head>
+ </head>
+<body>
+<h1>ChatGPT使用说明</h1>
+<ul>
+    <li><a href="#education">教育行业</a></li>
+    <li><a href="#customer-support">客户支持</a></li>
+    <li><a href="#programming">编程与技术支持</a></li>
+</ul>
+<h2 id="education">教育行业</h2>
+<p>ChatGPT可以帮助教师和学生解答问题、辅导作业以及提供学习资源。</p>
+<p><strong>例子1：</strong></p>
+<p><em>问题：</em> "请解释一下什么是光合作用？"</p>
+<p><em>回答：</em> "光合作用是绿色植物和某些微生物将光能转化为化学能的过程。在这个过程中，植物通过叶子中的叶绿体吸收阳光、水和二氧化碳，生成葡萄糖（一种有机物）和氧气。光合作用可以总结为以下化学方程式：6CO₂ + 6H₂O + 光能 → C₆H₁₂O₆（葡萄糖）+ 6O₂。"</p>
+<p><strong>例子2：</strong></p>
+<p><em>问题：</em> "什么是宪法原则？"</p>
+<p><em>回答：</em> "宪法原则是构成宪法基础的核心观念和价值观。这些原则通常包括国家主权、民主、法治、权力分立、保护公民权利和自由等。宪法原则在不同国家和地区可能有所差异，但它们通常反映了一个国家的政治、社会和法律传统。"</p>
+<p><strong>例子3：</strong></p>
+<p><em>问题：</em> "什么是弹性系数？"</p>
+<p><em>回答：</em> "弹性系数是物质的一种性质，用于描述物体在受到外力作用时的变形程度。弹性系数包括杨氏模量（刚性弹性系数）、剪切模量（切变弹性系数）和体积模量（体积弹性系数）。杨氏模量表示物体在受到拉伸或压缩作用时的抵抗变形能力；剪切模量描述物体在受到剪切力时的抵抗变形能力；体积模量表示物体在受到均匀压力作用时的抵抗变形能力。"</p>
+ <h2 id="customer-support">客户支持</h2>
+<p>ChatGPT可以作为智能客服助手，处理客户咨询和问题，提高客户满意度。</p>
+<p><strong>例子1：</strong></p>
+<p><em>问题：</em> "我如何找到我的订单号？"</p>
+<p><em>回答：</em> "您可以在确认订单的电子邮件中找到订单号，或者登录您的账户，在“我的订单”或“订单历史”部分查看您的所有订单。订单号通常是一串数字或字母，用于唯一标识您的购买。"</p>
+<p><strong>例子2：</strong></p>
+<p><em>问题：</em> "您们的退货政策是什么？"</p>
+<p><em>回答：</em> "我们的退货政策允许在购买后的30天内退货。退回的商品必须保持原始状态，包括所有的标签、包装等。退货时，请确保附上购买凭证和填写好的退货表。一旦我们收到您的退货并确认商品状况良好，我们将为您办理退款。"</p>
+<p><strong>例子3：</strong></p>
+<p><em>问题：</em> "我如何重置我的账户密码？"</p>
+<p><em>回答：</em> "要重置您的账户密码，请转到登录页面，点击“忘记密码”链接。然后，输入您的电子邮件地址，我们将向您发送一封包含重置密码链接的电子邮件。请点击该链接并按照提示设置新密码。完成后，您可以使用新密码登录您的账户。"</p>
+
+<h2 id="programming">编程与技术支持</h2>
+<p>ChatGPT可以为程序员提供编程帮助、代码示例以及解决技术问题。</p>
+<p><strong>例子1：</strong></p>
+<p><em>问题：</em> "如何在Python中连接MySQL数据库？"</p>
+<p><em>回答：</em> "要在Python中连接MySQL数据库，您可以使用`mysql-connector-python`库。首先，确保您已安装该库，可以使用pip install mysql-connector-python进行安装。然后，编写以下代码：
+import mysql.connector
+
+cnx = mysql.connector.connect(
+    host="your_host",
+    user="your_user",
+    password="your_password",
+    database="your_database"
+)
+
+cursor = cnx.cursor()
+# 执行查询和其他数据库操作...
+cursor.close()
+cnx.close()
+
+用您的数据库凭证替换your_host、your_user、your_password和your_database。"</p>
+<p><strong>例子2：</strong></p>
+<p><em>问题：</em> "如何在JavaScript中创建一个简单的计时器？"</p>
+<p><em>回答：</em> "在JavaScript中创建一个简单的计时器，您可以使用setTimeout函数。以下是一个简单的示例：
+function myTimer() {
+  console.log('Hello, World!');
+}
+
+// 设置3秒后执行myTimer函数
+setTimeout(myTimer, 3000);
+这段代码将在3秒（3000毫秒）后执行myTimer函数，输出'Hello, World!'。"</p>
+<p><strong>例子3：</strong></p>
+<p><em>问题：</em> "如何使用CSS实现水平居中？"</p>
+<p><em>回答：</em> "要使用CSS实现水平居中，可以根据元素类型和布局选择不同的方法。以下是两种常见的方法：
+
+1. 对于内联元素或内联块元素：
+.parent {
+  text-align: center;
+}
+
+2. 对于块级元素：
+.child {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* 或其他宽度值 */
+}
+
+这些方法分别适用于内联元素/内联块元素和块级元素的水平居中。"</p>
+
+</body>
+</html>
